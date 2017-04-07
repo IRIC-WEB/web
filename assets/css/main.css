@@ -1,6 +1,12 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
+/*
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -18,6 +24,7 @@
 
 	body {
 		line-height: 1;
+		overflow-x: hidden;
 	}
 
 	ol, ul {
@@ -49,6 +56,69 @@
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
+
+
+	.contain{	width: 500%;
+    				margin-left: -200%;
+    				background-color:#808080;
+						margin-top: 0px;
+
+					}
+
+	.team-head { display: inline-block;
+								padding: 25px 40px;
+								color: #e6e6e6;
+								/*border: solid 2px #fff;*/
+								text-transform: uppercase;
+								letter-spacing: 1px;
+								font-size: 20px; }
+
+
+					.grid {
+						  display: -webkit-box;
+						  display: -moz-box;
+						  display: -ms-flexbox;
+						  display: -webkit-flex;
+						  display: flex;
+
+						  -webkit-flex-flow: row wrap;
+						  justify-content: space-between;
+							align-items: stretch;
+							margin-left: auto;
+							margin-right: auto;
+						}
+
+						.cell {
+								width: 300px;
+								flex-grow: 1;
+								text-align: center;
+								margin-bottom: 50px;}
+
+
+
+
+		.team img { margin-bottom: 40px; }
+		 ul.social-buttons { list-style: none; margin: 0; padding: 0; }
+		 ul.social-buttons li { display: inline-block; margin-right: 10px; }
+		 ul.social-buttons li:last-child { margin-right: 0; }
+		 .social-btn { width: 40px;
+			 						height: 40px;
+									border-radius: 50%;
+								  -moz-border-radius: 50%;
+									-webkit-border-radius: 50%;
+									-o-border-radius: 50%;
+									background: #777;
+									display: inline-block;
+									color: #fff;
+									font-size: 17px;
+									line-height: 40px;
+									text-align: center; }
+			.social-btn:hover, .social-btn:focus { background: #444; color: #fff; }
+			.social { margin-top: 25px }
+
+
+
+
 
 /* Containers */
 
@@ -1793,7 +1863,7 @@
 		color: #777;
 		font-family: "Source Sans Pro", sans-serif;
 		font-size: 16pt;
-		font-weight: 400;
+		font-weight: 300;
 		line-height: 1.65em;
 		letter-spacing: -0.015em;
 	}
